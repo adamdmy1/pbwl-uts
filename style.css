@@ -1,0 +1,106 @@
+*{
+    background: rgb(240, 78, 240);
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: "myriadffs", sans-serif;
+    width: 100%;
+    height: 100%;
+    
+}
+img{
+    position: relative;
+    right: 15px;
+width: 7%;
+height: auto;
+}
+
+h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table{
+    margin: 0px auto;
+
+}
+.logo {
+
+margin: 10px 10px 10px 10px;
+}
+
+.garis{
+  margin: 10px 10px 10px 10px;
+  padding-bottom: 45px; 
+    border: 5px solid color  #fff;
+    margin-bottom: 60px;
+}
+
+
+.mainc{
+    text-align: center;
+    font-size: large;
+max-width: 100%;
+height: auto;
+
+
+}
+
+.bagian-bawah a.active {
+    background-color: #e8e8e8;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+ul.menu {
+    font-family: "myriadffs", sans-serif;
+    max-width: 100% auto;
+    
+}
+ul.menu a{
+    padding: 6px 12px;
+    font-size: larger;
+}
+
+ul.menu li a:hover{
+    background-color:rgb(115, 9, 119);
+}
+
+.kepala {
+ background-color:rgb(49, 155, 8);   
+    position:relative;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background: rgb(126, 150, 230);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
